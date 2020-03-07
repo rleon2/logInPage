@@ -1,12 +1,27 @@
-body,html{
+html,body{
     margin: 0;
     padding: 0;
-    background-color: black;
-    background-image: url(./island-pic.jpg);
+    background-color: white;
+    margin: 20px;
+    
     
 }
 
+.fa-key, .fa-envelope{
+    padding-right: 2px;
+    margin-right: 2px;
+    color: teal;
+    border: 2px black;
+}
+#forget{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
 .flex-container{
+    margin-right: auto;
+    margin-left: auto;
     display: flex;
     flex-direction: row;
     justify-self: center;
@@ -14,8 +29,7 @@ body,html{
     box-shadow: 10px 10px 10px 5px teal;
     margin-bottom: 10px;
     align-self:center;
-    
-    
+    text-align: center;
 }
 
 .left{
@@ -24,6 +38,7 @@ body,html{
     flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
+    background-color: whitesmoke;
     /*border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;*/
 }
@@ -42,7 +57,7 @@ body,html{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 
 }
 
@@ -53,7 +68,7 @@ body,html{
 }
 #email{
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     justify-content: center;
 }
 
@@ -63,7 +78,7 @@ body,html{
     justify-content: center;
 }
 #submit-button{
-    margin-top: 20px;
+    margin-top: 10px;
     background-color: teal;
 }
 
@@ -93,10 +108,15 @@ body,html{
     margin: 10px;
     display: flex;
     justify-content: center;
+    width: 100%;
  }
+
+
 
  .google{
     margin: 10px;
     display: flex;
     justify-content: center;
+    width: 100%;
+    color: green;
  }
